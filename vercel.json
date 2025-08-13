@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "api/generate-word.js", "use": "@vercel/node" }
+  ],
+  "routes": [
+    { "src": "/api/generate-word", "dest": "api/generate-word.js" }
+  ]
+}
